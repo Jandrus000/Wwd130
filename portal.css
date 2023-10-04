@@ -1,8 +1,11 @@
 
 body{
-    background-color:beige;
+    background-color:rgb(255, 255, 255);
+    font-size: 16px
 }
-
+* {
+    border: 1px solid red;
+}
 a {
     background-color: lightblue;
     color: #000;
@@ -11,14 +14,41 @@ a {
     margin: 5px;
     text-align: center;
 }
+a:hover{
+    background-color:darkgray;
+    color: white;
+}
 nav{
     display:flex;
+    justify-content: center;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+img {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    /* text-align: center; */
+    width: 60%;
+    margin: 10px auto;
 }
 
 #primary{
     background-color: gr;
 }
 
-.background{
-    background-color: rgba(0, 0, 255, 0.24);
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(75, 75, 75);
 }
+
+/* .background{
+    background-color: rgba(0, 0, 255, 0.24);
+} */
