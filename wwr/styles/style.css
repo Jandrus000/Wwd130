@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio&family=Lato&display=swap');
 body {
     background-color: #78C5D7;
-    font-family: "Antonio", Arial, sans-serif;
+    font-family: "Antonio",  Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ h2{
 
 
 .home-title {
-    font-family: 'Antonio',sans-serif;
+    font-family: 'Antonio', Arial, Helvetica, sans-serif;
     font-size: 3em;
     color:black;
     margin-top: 10px;
@@ -42,7 +42,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -57,7 +57,7 @@ nav a:hover {
 
 .msg {
     background-color: #FCE172;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     padding: 35px;
     margin: 200px 0;
@@ -78,7 +78,7 @@ main section img{
 
 footer {
     background-color: #144367;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     color: #78C5D7;
     padding: 25px 50px;
     margin-top: 200px;
@@ -119,7 +119,7 @@ footer .social img{
 }
 
 #hero-msg h4{
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
 .button-box {
