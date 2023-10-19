@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.top{
+    width: 100%;
+}
+
+div{
+    margin: 0;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    margin: 100px;
+    width: 300px;
+    border: 20px solid rgb(73, 73, 73);
+    border-radius: 300px;
+}
+
+.bottom-mid{
+    margin: 100px 50px 100px 50px;
+    width: 300px;
+    border: 20px solid rgb(73, 73, 73);
+    border-radius: 300px;
+}
