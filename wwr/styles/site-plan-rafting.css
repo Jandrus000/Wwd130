@@ -104,8 +104,8 @@ nav {
   font-size: 1.2em;
 }
 nav  {
-  list-style-type: none;
   display: flex;
+  justify-content: space-around;
 }
 nav a {
   padding:1em;
