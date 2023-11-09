@@ -242,6 +242,46 @@ h4 {
 }
 
 
+/* -----------------------------------------------FAQ page-------------------------------------------------- */
+
+
+#faqhero{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px;
+    margin-top: -100px;
+    
+    
+}
+
+#faqheroimg{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -2;
+}
+
+#herotitle{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+    color: white;
+    filter: drop-shadow(0px 0px 5px black);
+    z-index: 1;
+}
+
+#faqcontent{
+    margin: auto;
+    width: 70%;
+    line-height: 1.5;
+    background-color: #FCE172;
+    padding: 30px;
+    
+}
+#emptyspace{
+    height: 50px;
+}
 
 
 @media screen and (max-width: 900px) {
