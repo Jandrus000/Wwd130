@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Signika&display=swap');
+
+
+header {
+    height: 75px;
+    background-color: #26d9a3;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Signika", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+  }
+
+#logo-img {
+  width: 110px;
+  margin-top: 40px;
+}
+
+.header-links{
+  text-decoration: none;
+  color: inherit;
+  transition: text-shadow 0.3s ease;
+  padding: 10px;
+}
+
+.header-links:hover{
+  text-shadow: 0 0 20px rgb(13, 46, 48);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#hero{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#home-img{
+  width:100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  z-index: -1;
+}
+
+#home-title{
+  
+  font-family: "ABeeZee", Arial;
+  font-size: 6em;
+  color: #26d9a3;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+  margin: auto;
+  
+}
+
+#home-text{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-family: "Signika", Arial;
+  font-size: 1.5em;
+  background-color: rgb(47, 147, 152);
+  margin-top: 60px;
+  margin-bottom: 50px;
+  padding: 20px;
+  color: white;
+}
+
+
+
+#ocean-button{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+#ocean-title{
+  margin:auto;
+  font-family: "ABeeZee", Arial;
+  font-size: 4em;
+  color: rgb(47, 147, 152);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-decoration: none;
+  z-index: 2;
+}
+
+#ocean-link{
+  width: 60%;
+  margin: auto;
+  
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+}
+
+#ocean-image{
+  width: 95%;
+
+  z-index: -1;
+  border: 20px solid;
+  border-color: rgb(47, 147, 152);
+  border-radius: 50px;
+}
+
+#rainforest-button{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  
+}
+
+#rainforest-title{
+  margin:auto;
+  font-family: "ABeeZee", Arial;
+  font-size: 4em;
+  color: rgb(47, 147, 152);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-decoration: none;
+  z-index: 2;
+}
+
+#rainforest-link{
+  width: 60%;
+  margin: auto;
+  
+  grid-column: 1/2;
+  grid-row: 1/2;
+  z-index: 1;
+}
+
+#rainforest-image{
+  width: 95%;
+
+  z-index: -1;
+  border: 20px solid;
+  border-color: rgb(47, 147, 152);
+  border-radius: 50px;
+}
+
+footer{
+  height: 75px;
+  background-color: #26d9a3;
+  box-shadow: 10px 0 0 rgba(0, 0, 0, 1);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 4px;
+}
+
+#socials{
+  display: flex;
+  justify-content: space-around;
+  
+  border-radius: 50px;
+  gap: 15px;
+
+}
+
+.social-links{
+  height: 64px;
+}
+
+.social-images{
+  margin:auto;
+  height:100%;
+  border-radius: 50px;
+  
+}
+
+.footer-link{
+  text-decoration: none;
+  color: inherit;
+  transition: text-shadow 0.3s ease;
+  padding: 10px;
+}
+
+.footer-link:hover{
+  text-shadow: 0 0 20px rgb(13, 46, 48);
+}
+
