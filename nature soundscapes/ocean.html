@@ -8,59 +8,83 @@
     <link rel="stylesheet" href="styles/style.css">
     <script src="script.js"></script>
 </head>
-
 <body>
-    <header id="subpage-header" role="banner">
+    
+    <header id="subpage-header-hidden">
         <a href="index.html">
-            <img id="logo-img" src="images/logo_with_circle.png" alt="Nature Soundscapes logo" width=100>
+            <img id="logo-img-hidden" src="images/logo_with_circle.png" alt="Nature Soundscapes logo" width=100>
         </a>
-        <a class= "header-links" href="index.html">Home</a>
-        <a class= "header-links" href="ocean.html?songid=ocean">Ocean</a>
-        <a class= "header-links" href="rainyforest.html?songid=forest">Rainy Forest</a>
+        <a class= "header-links-subpage-hidden" href="index.html">Home</a>
+        <a class= "header-links-subpage-hidden" href="ocean.html?songid=ocean">Ocean</a>
+        <a class= "header-links-subpage-hidden" href="rainyforest.html?songid=forest">Rainy Forest</a>
     </header>
+    <header id="subpage-header">
+      <a href="index.html">
+          <img id="logo-img" src="images/logo_with_circle.png" alt="Nature Soundscapes logo" width=100>
+      </a>
+      <a class= "header-links-subpage" href="index.html">Home</a>
+      <a class= "header-links-subpage" href="ocean.html?songid=ocean">Ocean</a>
+      <a class= "header-links-subpage" href="rainyforest.html?songid=forest">Rainy Forest</a>
+  </header>
+    
 
     <div id="title-mute">
       <h1 id="oceanpage-title">Ocean</h1>
       <img id="mute-button" src="images/mute-icon.png" alt="Mute">
     </div>
     
-    <video id="ocean-video" muted autoplay loop>
-        <source src="images\production_id_4183292 (1080p).mp4" type="video/mp4">
-         <source src="Home_Page.ogv" type="video/ogv" />    
-        <source src="Home_Page.webm" type="video/webm" /> 
-        
+
+
+    <div id="ocean-grid">
+      <video id="ocean-video" muted autoplay loop>
+        <source src="images/production_id_4183292_(1080p).mp4" type="video/mp4">
+        <source src="Home_Page.ogv" type="video/ogv" >    
+        <source src="Home_Page.webm" type="video/webm" > 
      </video>
+     <div id="cargo">
+        <p id="cargo-label" onclick="playAudio('./audio/Container_ship_fog_horn.mp3')">Ship Horn</p>
+        <img id="cargo-button" src="images/cargo_boat.jpg" alt="image for page3" onclick="playAudio('./audio/Container_ship_fog_horn.mp3')">
+     </div>
+      <div id="wind">
+        <p id="wind-label" onclick="playAudio('./audio/palm_trees_wind_blowing.mp3')">Wind</p>
+        <img id="palm-button" src="images/palm_trees.jpg" alt="image for page3" onclick="playAudio('./audio/palm_trees_wind_blowing.mp3')">
+      </div>
+      <div id="seagull">
+        <p id="seagull-label" onclick="playAudio('./audio/Seagull - Sound Effect.mp3')">Seagulls</p>
+        <img id="seagull-button" src="images/seagulls.jpg" alt="image for page3" onclick="playAudio('./audio/Seagull - Sound Effect.mp3')">
+      </div>
+      <div id="whale">
+        <p id="whale-label" onclick="playAudio('./audio/whale noises.mp3')">Whale Call</p>
+        <img id="whale-button" src="images/whales.jpg" alt="image for page3" onclick="playAudio('./audio/whale noises.mp3')">
+      </div>
+      
+    </div>
     
-    
-      <img src="images\cargo boat.jpg" alt="image for page3">
-      <img src="images\palm trees.jpg" alt="image for page3">
-      <img src="images\seagulls.jpg" alt="image for page3">
-      <img src="images\whales.jpg" alt="image for page3">
-      <p>
+      <p id="home-text">
           The soothing sounds of the ocean are a timeless lullaby of serenity. The rhythmic ebb and flow of the waves against the shoreline create a gentle and consistent hushing that lulls one into a state of deep relaxation. Seagulls add intermittent, melodic calls, while the distant sound of the waves crashing on rocks or the soft whisper of the sea breeze evokes a sense of vastness and freedom. Together, these oceanic sounds provide a soothing and meditative backdrop that allows you to unwind and connect with the profound beauty of the sea.
-      </p>
+      </p> 
 
       <!-- <div>
         <audio id="bg-audio" loop>
-          <source src="audio\ocean waves.mp3" type="audio/mp3">
+          <source src="audio/ocean waves.mp3" type="audio/mp3">
           Your browser does not support the audio element.
         </audio>
       </div> -->
       
       <!-- <audio controls>
-        <source src="audio\palm trees wind blowing.mp3" type="audio/mp3">
+        <source src="audio/palm trees wind blowing.mp3" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
       <audio controls>
-        <source src="audio\Container ship fog horn.mp3" type="audio/mp3">
+        <source src="audio/Container ship fog horn.mp3" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
       <audio controls>
-        <source src="audio\whale noises.mp3" type="audio/mp3">
+        <source src="audio/whale noises.mp3" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
       <audio controls>
-        <source src="audio\Seagull - Sound Effect.mp3" type="audio/mp3">
+        <source src="audio/Seagull - Sound Effect.mp3" type="audio/mp3">
         Your browser does not support the audio element.
       </audio> -->
     

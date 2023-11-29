@@ -204,20 +204,67 @@ footer{
 }
 
 /* ----------------------------Ocean Page------------------------------- */
-
+.header-links-subpage{
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  transition: text-shadow 0.3s ease;
+}
+.header-links-subpage:hover{
+  text-shadow: 0 0 20px rgb(13, 46, 48);
+}
+#logo-img{
+  opacity: 1;
+}
 #subpage-header{
+  background-color: transparent;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
   opacity: 0;
+  background-color: #26d9a3;
   transition: opacity 0.5s ease;
+  margin-top: -75px;
 }
 #subpage-header:hover{
   opacity: 1;
+
 }
+.header-links-subpage-hidden{
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  transition: text-shadow 0.3s ease;
+}
+
+.header-links-subpage-hidden{
+  opacity: 0;
+}
+#logo-img-hidden{
+  width: 110px;
+  margin-top: 40px;
+  opacity: .5;
+}
+#subpage-header-hidden{
+  background-color: transparent;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+#subpage-header-hidden:hover{
+  opacity: 1;
+
+}
+
+
+  
 
 #ocean-video{
   width: 100%;
   z-index: -20;
   position: relative;
   margin-top: -320px;
+  grid-row:1/3;
+  grid-column: 1/5;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 1);
   
 }
 
@@ -244,3 +291,75 @@ footer{
   text-decoration: none;
   z-index: 2;
 }
+#ocean-grid{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  place-items: center;
+  align-items: center;
+  justify-items: center;
+}
+
+#cargo-button,#palm-button,#seagull-button,#whale-button{
+  border-radius: 150px;
+  width: 60%;
+  grid-row: 2/3;
+  margin-bottom: 50px;
+  border: rgb(47, 147, 152) 5px solid;
+  opacity: .5;
+  transition: opacity .5s ease;
+  z-index:0;
+}
+
+#cargo-label, #wind-label, #seagull-label, #whale-label{
+  position: relative;
+  z-index: 1;
+  grid-row: 2/3;
+  margin-bottom: 72px;
+  color: white;
+  font-family: "Signika", Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  opacity: 0;
+  margin-bottom: -145px;
+  transition: opacity .5s ease;
+
+}
+
+#cargo, #wind,#seagull,#whale{
+  border-radius: 150px;
+  grid-row: 2/3;
+  text-align: center;
+  
+}
+
+
+
+#cargo:hover #cargo-label, #wind:hover #wind-label,#seagull:hover #seagull-label,#whale:hover #whale-label{
+  opacity: 1;
+}
+#cargo:hover #cargo-button, #wind:hover #palm-button,#seagull:hover #seagull-button,#whale:hover #whale-button{
+  opacity: 1;
+}
+
+
+#cargo-button:hover,#palm-button:hover,#seagull-button:hover, #whale-button:hover{
+  opacity: 1;
+}
+
+#cargo, #cargo-label,#cargo{
+  
+  grid-column: 1/2;
+}
+#palm-button, #wind-label,#wind{
+  
+  grid-column: 2/3;
+}
+#seagull-button, #seagull-label, #seagull{
+  
+  grid-column: 3/4;
+}
+#whale-button, #whale-label, #whale{
+  
+  grid-column: 4/5;
+}
+
+

@@ -34,4 +34,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
             mute_button.src="./images/umute-icon.png"
         }
     });
+
 });
+
+function playAudio(audioPath){
+    console.log(audioPath);
+    const audio = new Audio(audioPath);
+        audio.play();
+}
